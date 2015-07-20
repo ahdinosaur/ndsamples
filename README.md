@@ -22,7 +22,7 @@ for example, a frame of 1024 samples per channel and 2 channels (stereo) has the
 
 should be a `Float32Array` of [samples](https://en.wikipedia.org/wiki/Sampling_%28signal_processing%29) between `-1.0` and `+1.0`.
 
-if we [`.pick(time)`](https://github.com/scijs/ndarray#arraypickp0-p1-), we should see [channel data](hhttps://en.wikipedia.org/wiki/Sampling_(signal_processing://en.wikipedia.org/wiki/Sampling_(ttps://en.wikipedia.org/wiki/Surround_sound#Standard_speaker_channels) in a form such as:
+if we [`.pick(time)`](https://github.com/scijs/ndarray#arraypickp0-p1-), we should see [channel data](https://en.wikipedia.org/wiki/Surround_sound#Standard_speaker_channels) in a form such as:
 
 ```
 [center] // 1.0 mono
