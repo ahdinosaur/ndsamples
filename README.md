@@ -56,7 +56,7 @@ some modules use ndsamples.
 
 feel free to add what's missing. :)
 
-## sugar factory
+## `ndsamples` factory
 
 ### install
 
@@ -85,7 +85,7 @@ the `ndsamples` factory returns an `ndarray` with:
 - your data cast into a `Float32Array`, if necessary
 - a getter for `length` (`shape[0]`)
 - a getter for `numberOfChannels` (`shape[1]`)
-- the value `format` as given
+- a getter for `format` as given
 
 ## license
 

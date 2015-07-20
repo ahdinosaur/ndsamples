@@ -28,7 +28,10 @@ function createNdsamples (opts) {
   Object.defineProperties(arr, {
     // values
     format: {
-      value: format
+      get: function () {
+        return format
+      },
+      enumerable: true
     },
     // getters
     length: {
