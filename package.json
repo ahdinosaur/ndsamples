@@ -1,0 +1,24 @@
+{
+  "name": "ndsamples",
+  "version": "0.0.0",
+  "description": "ndsamples are ndarrays in a format for audio samples",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/livejs/ndsamples.git"
+  },
+  "keywords": [
+    "ndsamples",
+    "ndarray",
+    "audio",
+    "sound",
+    "pcm"
+  ],
+  "contributors": [
+    "ahdinosaur"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/livejs/ndsamples/issues"
+  },
+  "homepage": "https://github.com/livejs/ndsamples#readme"
+}
