@@ -13,7 +13,7 @@ each `ndsamples` frame should have the follow properties:
 should be an `Array` of the form:
 
 ```
-[time, channels]
+[length, numberOfChannels]
 ```
 
 for example, a frame of 1024 samples per channel and 2 channels (stereo) has the shape `[1024, 2]`.
@@ -42,7 +42,7 @@ should be an `Object` with the following properties:
 
 ```
 {
-  rate: 44100
+  sampleRate: 44100
 }
 ```
 
@@ -55,6 +55,37 @@ some modules use ndsamples.
 - TODO
 
 feel free to add what's missing. :)
+
+## sugar factory
+
+### install
+
+with [npm](https://npmjs.org/), do
+
+```
+npm i --save ndsamples
+```
+
+### usage
+
+```
+var ndsamples = require('ndsamples')
+
+var samples = ndsamples({
+  data: [0, 0.5, -0.5, 0, 1, -1, -1, 1],
+  shape: [4, 2],
+  format: {
+    sampleRate: 44100
+  }
+})
+```
+
+the `ndsamples` factory returns an `ndarray` with:
+
+- your data cast into a `Float32Array`, if necessary
+- a getter for `length` (`shape[0]`)
+- a getter for `numberOfChannels` (`shape[1]`)
+- the value `format` as given
 
 ## license
 
