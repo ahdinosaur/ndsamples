@@ -1,6 +1,6 @@
 {
   "name": "ndsamples",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "ndsamples are ndarrays in a format for audio samples",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/livejs/ndsamples.git"
+    "url": "git+https://github.com/ahdinosaur/ndsamples.git"
   },
   "keywords": [
     "ndsamples",
@@ -22,9 +22,9 @@
   ],
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/livejs/ndsamples/issues"
+    "url": "https://github.com/ahdinosaur/ndsamples/issues"
   },
-  "homepage": "https://github.com/livejs/ndsamples#readme",
+  "homepage": "https://github.com/ahdinosaur/ndsamples#readme",
   "devDependencies": {
     "tape": "^4.0.1"
   },
