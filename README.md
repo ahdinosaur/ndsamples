@@ -34,7 +34,7 @@ if we [`.pick(time)`](https://github.com/scijs/ndarray#arraypickp0-p1-), we shou
 ...
 ```
 
-TODO: support other data types?
+TODO: support other common data types? (`uint8`, `int16`, `float64`, ...)
 
 ### `format`
 
