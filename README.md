@@ -52,7 +52,7 @@ TODO: should there be a format identifier to store channel configuration of a fr
 
 some modules use ndsamples. 
 
-- TODO
+- [read-audio](https://github.com/livejs/read-audio)
 
 feel free to add what's missing. :)
 
