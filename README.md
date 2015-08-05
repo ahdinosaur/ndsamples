@@ -53,6 +53,7 @@ TODO: should there be a format identifier to store channel configuration of a fr
 some modules use ndsamples. 
 
 - [read-audio](https://github.com/livejs/read-audio)
+- [node-audio-rms](https://github.com/livejs/node-audio-rms)
 
 feel free to add what's missing. :)
 
